@@ -348,23 +348,23 @@ async def reload_admins(_, message: Message):
 
 __MODULE__ = f"{Admin}"
 __HELP__ = """
-Make it easy to promote and demote users with the admin module!
+С помощью модуля администратора легко повышать и понижать в должности пользователей!
 
-**Group settings**
-- /setgrouppic :  reply to an image to set as group photo
-- /settitle : [entity] [title]: sets a custom title for an admin. If no [title] provided defaults to "Admin"
-- /setgrouptitle : [text] set group title
+**Настройки группы**
+- /setgrouppic : ответ на изображение для установки в качестве группового фото
+- /settitle : [entity] [title]: устанавливает пользовательский заголовок для администратора. При отсутствии [title] по умолчанию устанавливается "Admin".
+- /setgrouptitle : [текст]: установить название группы.
 
-**Admin commands:**
+**Команды администратора:**
 
-- /fullpromote: Promote a member with max rights
-- /promote `<reply/username/mention/userid>`: Promote a user.
-- /demote `<reply/username/mention/userid>`: Demote a user.
-- /send : send message as bot
-- /adminlist: List the admins in the current chat.
-- /reload : Update the admin cache, to take into account new admins/admin permissions.
+- /fullpromote: Повысить члена группы с максимальными правами
+- /promote `<reply/username/mention/userid>`: Повысить пользователя.
+- /demote `<reply/username/mention/userid>`: понизить пользователя в должности.
+- /send : отправить сообщение как бот
+- /adminlist: Вывести список администраторов в текущем чате.
+- /reload : Обновить кэш администраторов, чтобы учесть новых администраторов/разрешения администраторов.
 
-Sometimes, you promote or demote an admin manually, and Rose doesn't realise it immediately. This is because to avoid spamming telegram servers, admin status is cached locally.
-This means that you sometimes have to wait a few minutes for admin rights to update. If you want to update them immediately, you can use the /reload command;
-that'll force Rose to check who the admins are again. 
+Иногда вы повышаете или понижаете администратора вручную, а Borz не понимает этого сразу. Это происходит потому, что во избежание спама на серверах Telegram статус администратора кэшируется локально.
+Это означает, что иногда приходится ждать несколько минут, пока права администратора обновятся. Если вы хотите обновить их немедленно, вы можете использовать команду /reload;
+это заставит Borz снова проверить, кто является администратором.. 
 """
