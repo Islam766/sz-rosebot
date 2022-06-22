@@ -1,29 +1,29 @@
 name : English
 
 #menu - menu.py
-menu : "  [ᴍ ᴜ ʜ ᴀ ʀ ɪ ʙ u ɴ](https://t.me/+KtO9CZQ1k61lYzIy)"
-back : "« Назад"
+menu : "Rose was created on **August 10, 2021**. \nWe are currently developing and maintaining plugins of **WilliamButcherBot**  and **Alita_Robot**, using only the **Pyrogram** library.\n\n• **creator** : [supun](https://t.me/supunma)\n• **Language** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Build Version** : `2.0`\n\n@Theszrosebot"
+back : "« Back"
 
 #main - main.py
-main1 : " Здравствуйте ! Я {}  \n\nПродвинутый бот для управления группами."
-main2 : "**Свяжитесь со мной, если у вас есть вопросы о том, как меня использовать!**"
-main3 : "Нажмите здесь"
-main4 : "Нажмите на кнопку ниже, чтобы получить помощь по следующим вопросам {}"
-main5 : "**Добро пожаловать в меню помощи**\n\nЯ - бот для управления группами с некоторыми полезными функциями.\nнажмите на кнопки ниже, чтобы открыть меню справки по данному модулю \nЕсли вы обнаружили ошибки или у вас есть вопросы о том, как меня использовать, \nСвяжитесь со мной[𝐼𝓈𝓁𝒶𝓂](https://t.me/IsIam07), \n\n**Все команды могут быть использованы с / **"
-main6 : "Вот помощь для **{}**"
+main1 : " Hello There ! I'm {}  \n\nAn  advanced telegram Group management Bot to manage your groups and to protect your groups & for all your needs."
+main2 : "**PM me if you have any questions on how to use me!**"
+main3 : "Click here"
+main4 : "Click on the below button to get help about {}"
+main5 : "**Welcome to help menu**\n\nI'm a group management bot with some useful features.\nclick on the buttons below to open help menu about that module \nIf you have found bugs or have questions on how to use me, \nhave a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.\n\n**All commands can be used with / **"
+main6 : "Here is the help for **{}**"
 
 #plugin - admin.py
-admin1 : "Используйте /send с текстом или ответом на сообщение."
-admin2 : "Я не могу повышать себя."
-admin3 : "У меня недостаточно разрешений"
-admin4 : "Я не могу понизить себя в должности."
-admin5 : "поиск удаленных аккаунтов..."
-admin6 : "В этом чате нет удаленных аккаунтов"
-admin7 : "**Применение:**\n/setgrouptitle НОВОЕ НАЗВАНИЕ"
-admin8 : "Ответ на сообщение пользователя для присвоения ему звания администратора"
-admin9 : "Я не могу изменить название администратора неизвестного лица"
-admin10 : "**Используйте:**\n/settitle НОВАЯ ДОЛЖНОСТЬ АДМИНИСТРАТОРА"
-admin11 : "Ответить на фотографию, чтобы установить ее как chat_photo"
+admin1 : "Use /send with text or by replying to message."
+admin2 : "I can't promote myself."
+admin3 : "I don't have enough permissions"
+admin4 : "I can't demote myself."
+admin5 : "Finding ghosts..."
+admin6 : "There are no deleted accounts in this chat"
+admin7 : "**Usage:**\n/setgrouptitle NEW NAME"
+admin8 : "Reply to user's message to set his admin title"
+admin9 : "I can't change admin title of an unknown entity"
+admin10 : "**Usage:**\n/settitle NEW ADMINISTRATOR TITLE"
+admin11 : "Reply to a photo to set it as chat_photo"
 admin12 : "Reply to a photo or document to set it as chat_photo"
 admin13 : "File size too large."
 admin14 : "Successfully Changed Group Photo"
@@ -47,101 +47,101 @@ admin31 : "File size too large."
 admin32 : "Successfully Changed Group Photo"
 
 #plugin - antichannel.py
-antic1 : "Я понимаю только `/antichannel on` и `/antichannel off` "
-antic2 : "**Включен анти-канальный режим** ✅.\n\n `Я удалю все сообщения, если кто-то отправит сообщения с названиями каналов`"
-antic3 : "**Режим антиканала уже активирован в этом чате**"
-antic4 : "**Режим антиканала успешно отключён в чате**  ❌"
-antic5 : "**Анти-канал не был активирован в этом чате**"
-antic6 : "**Было обнаружено сообщение антиканала. Я удалил его..!**\n\n• Id канала =  {}  \n• Название канала = {} "
+antic1 : "I undestand `/antichannel on` and `/antichannel off` only"
+antic2 : "**Anti Channel Mode enabled** ✅.\n\n `I will delete all message when someone send messages with channel names`"
+antic3 : "**Anti Channel Mode Already Activated In This Chat**"
+antic4 : "**Anti Channel Mode Successfully Deactivated In The Chat**  ❌"
+antic5 : "**Anti Channel Was Not Activated In This Chat**"
+antic6 : "**A anti-channel message detected. I deleted it..!**\n\n• Channel Id =  {}  \n• Channel Name = {} "
 
 #plugin - antiservice.py
-serv1 : "Используйте: /antiservice [enable | disable]"
-serv2 : "Включена система "Антисервис". С этого момента я буду удалять служебные сообщения."
-serv3 : "Отключена система "Антисервис". С этого момента я не буду удалять служебные сообщения."
-serv4 : "Неизвестный суффикс, используйте /antiservice [enable|disable]."
+serv1 : "Usage: /antiservice [enable | disable]"
+serv2 : "Enabled AntiService System. I will Delete Service Messages from Now on."
+serv3 : "Disabled AntiService System. I won't Be Deleting Service Message from Now on."
+serv4 : "Unknown Suffix, Use /antiservice [enable|disable]"
 
 #plugin - antispoiler.py
-spoil1 : "Я понимаю только `/antispoiler on` и `/antispoiler off`."
-spoil2 : "`Обработка...`"
-spoil3 : "**Режим антиспойлера включен** ✅.\n\n `Я буду удалять все сообщения, если кто-то отправляет сообщения со спойлерами`"
-spoil4 : "**Режим антиспойлера уже активирован в этом чате**"
-spoil5 : "**Режим антиспойлера успешно деактивирован в этом чате** ❌"
-spoil6 : "**Режим антиспойлера не был активирован в этом чате**"
-spoil7 : "**Спойлерное сообщение обнаружено. Я удалил его...!** "
+spoil1 : "I undestand `/antispoiler on` and `/antispoiler off` only"
+spoil2 : "`Processing...`"
+spoil3 : "**Anti-spoiler Mode enabled** ✅.\n\n `I will delete all message when someone send messages with spoilers`"
+spoil4 : "**Anti-spoiler Mode Already Activated In This Chat**"
+spoil5 : "**Anti-spoiler Mode Successfully Deactivated In The Chat** ❌"
+spoil6 : "**Anti-spoiler Was Not Activated In This Chat**"
+spoil7 : "**spoiler message detected. I deleted it..!** "
 
 #plugin - antilangs 
-antil1 : "**Это текущие настройки**"
-antil2 : "`Обработка...`"
-antil3 : " Используйте: /antiarabic `[on | off]`"
-antil4 : " Используйте: /antichinese `[on | off]`"
-antil5 : " Используйте: /antijapanese `[on | off]`"
-antil6 : " Используйте: /antirussian `[on | off]`"
-antil7 : " Используйте: /sinhala `[on | off]`"
-antil8 : "Используйте: /antitamil `[on | off]`"
+antil1 : "**These are the current settings**"
+antil2 : "`Processing...`"
+antil3 : "Usage: /antiarabic `[on | off]`"
+antil4 : "Usage: /antichinese `[on | off]`"
+antil5 : "Usage: /antijapanese `[on | off]`"
+antil6 : "Usage: /antirussian `[on | off]`"
+antil7 : "Usage: /sinhala `[on | off]`"
+antil8 : "Usage: /antitamil `[on | off]`"
 
 #plugin - approve.py
-app1 : "Я не знаю, о ком вы говорите, вам нужно указать пользователя!".
-app2 : "Этого пользователя нет в этом чате!".
-app3 : "Пользователь уже является администратором, черные списки и блокировки на него не распространяются."
-app4 : "Я не знаю, о ком вы говорите, вам нужно указать пользователя!".
-app5 : "{} уже одобрен в {}".
-app6 : "{} был одобрен в {}! \nОни теперь будут игнорироваться черными списками, блокировками и антифлудом!"
-app7 : "Этот пользователь - администратор, его нельзя не одобрить."
-app8 : "{} еще не одобрен!".
-app9 : "{} больше не одобрен в {}".
-app10 : "Ни один пользователь не одобрен в {}".
-app11 : "{} является одобренным пользователем. Блокировки, антифлуд и черные списки не будут применяться к нему."
-app12 : "{} не является одобренным пользователем. На них действуют обычные команды."
+app1 : "I don't know who you're talking about, you're going to need to specify a user!"
+app2 : "This user is not in this chat!"
+app3 : "User is already admin,blacklists and locks already don't apply to them."
+app4 : "I don't know who you're talking about, you're going to need to specify a user!"
+app5 : "{} is already approved in {}"
+app6 : "{} has been approved in {} ! \nThey will now be ignored by blacklists,locks and antiflood!"
+app7 : "This user is an admin, they can't be disapproved."
+app8 : "{} isn't approved yet!"
+app9 : "{} is no longer approved in {}."
+app10 : "No users are approved in {}."
+app11 : "{} is an approved user. Locks, antiflood, and blacklists won't apply to them."
+app12 : "{} is not an approved user. They are affected by normal commands."
 
 #plugin - lang.py
-setting_1 : "Здравствуйте {}, Я говорю на многих языках\n Выберите язык из предложенных ниже !"
+setting_1 : "Hello {}, I can speek many languages\n Select your language from bellow !"
 setting_2 : "[🌎](https://crwd.in/szrosebot)Language was changed Successfully \n.Changed by {}"
 
 
 #plugin - ban.py
-ban2 : "Не могу найти пользователя, которого можно выгнать".
-ban3 : "Я не могу найти этого пользователя".
-ban4 : "Я не могу себя пнуть, я могу уйти, если хотите".
-ban6 : "Вы хотите пнуть возвышенного?".
-ban7 : "Я не могу пнуть администратора, ты знаешь правила".
-ban8 : "Я не могу пнуть себя, я могу уйти, если хочешь".
-ban9 : "Я не могу найти этого пользователя".
-ban10 : "Я не могу запретить себя, я могу уйти, если вы хотите".
-ban11 : "Вы хотите запретить Возвышенного?, РЕКОНСАЙДЕР!".
-ban12 : "Я не могу забанить администратора, ты знаешь правила, я тоже".
-ban13 : "Я не могу запретить себя, я могу уйти, если ты хочешь".
-ban14 : "Вы не можете использовать больше 99!"
-ban15 : "Укажите имя пользователя или ответьте на сообщение пользователя, чтобы снять бан".
-ban16 : "Не могу найти пользователя, которого можно забанить"
+ban2 : "Cannot find user to kick."
+ban3 : "I can't find that user."
+ban4 : "I can't kick myself, i can leave if you want."
+ban6 : "You Wanna Kick The Elevated One?"
+ban7 : "I can't kick an admin, You know the rules"
+ban8 : "I can't kick myself, i can leave if you want."
+ban9 : "I can't find that user."
+ban10 : "I can't ban myself, i can leave if you want."
+ban11 : "You Wanna ban The Elevated One?, RECONSIDER!"
+ban12 : "I can't ban an admin, You know the rules, so do i"
+ban13 : "I can't ban myself, i can leave if you want."
+ban14 : "You can't use more than 99 !"
+ban15 : "Provide a username or reply to a user's message to unban."
+ban16 : "Cannot find user to kick"
 ban17 : "Unbanned! {}"
 
 #plugin - blacklist.py
-black1 : "Пожалуйста, дайте мне слово для добавления в черный список!".
-black2 : "Нет активных фильтров в блок-листе"
-black3 : "Пожалуйста, дайте мне слово для добавления в черный список!"
-black4 : "Уже добавлены в черный список, пропустите их!"
-black5 : "Пожалуйста, посмотрите в справке, как использовать эту команду."
-black7 : "Черные списки не найдены!".
-black8 : "Пожалуйста, проверьте справку о том, как использовать эту команду".
-black9 : "Вы даже не администратор, не пытайтесь использовать эту команду!"
+black1 : "Please give me a word to add to the blacklist!"
+black2 : "No blocklist filters active"
+black3 : "Please give me a word to add to the blacklist!"
+black4 : "already added in blacklist, skipped them!"
+black5 : "Please check help on how to use this this command."
+black7 : "Blacklists not found!"
+black8 : "Please check help on how to use this this command."
+black9 : "You're not even an admin, don't try this explosive shit!"
 
 #plugin - captcha.py
-capt1 : "Captcha уже настроена здесь, используйте /remove для отключения"
-capt2 : "Пожалуйста, выберите тип капчи"
-capt3 : "Каптча отключена в этом чате"
+capt1 : "Captcha already tunned on here, use /remove to turn off"
+capt2 : "Please select the captcha type"
+capt3 : "Captcha turned off on this chat"
 
 #plugin - Chatbot.py
-chatb1 : "Я понимаю только `/chatbot on` и `/chatbot off`".
-chatb2 : "`Обрабатывается...`"
-chatb3 : "**Чат-бот не был активирован в этом чате**"
-chatb4 : "**Чат-бот успешно деактивирован в этом чате**❌"
-chatb5 : "Я понимаю только `/chatbot on` и `/chatbot off`"
+chatb1 : "I undestand `/chatbot on` and `/chatbot off` only"
+chatb2 : "`Processing...`"
+chatb3 : "**Chat bot Was Not Activated In This Chat**"
+chatb4 : "**Chat bot Successfully Deactivated In The Chat**❌"
+chatb5 : "I undestand `/chatbot on` and `/chatbot off` only"
 chatb6 : "Rose Bot AI Voice Chatbot"
-chatb7 : "Rose Bot - лучший..."
-chatb8 : "Сделано @szteambots..."
+chatb7 : "Rose Bot Is Best..."
+chatb8 : "Made By @szteambots..."
 chatb9 : "Repyping..."
-chatb10 : "**Чат-бот включен** ✅."
-chatb11 : "**Чат-бот уже активирован в этом чате**"
+chatb10 : "**Chat bot enabled** ✅."
+chatb11 : "**Chat bot Already Activated In This Chat**"
 
 
 #plugin - connection.py
@@ -218,7 +218,7 @@ nm6 : "**Removed This Chat From Database. This Group Will Be No Longer Closed On
 nm7 : "**Not Activated In This Chat**"
 nm8 : "I undestand `/nightmode on` and `/nightmode off` only"
 nm9 : "🌗 12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By @szrosebot**"
-nm10 : "🌗 06:00 Am, Group Is Opening.\n**Powered By @b0rzbot**"
+nm10 : "🌗 06:00 Am, Group Is Opening.\n**Powered By @szrosebot**"
 nm11 : "Give other parameters too "
 nm12 : "Syntax invailed \n Try `/help nightmode`"
 nm13 : "Please enter valid date and time...!"
@@ -227,30 +227,30 @@ nm15 : "Chat opening and closing time can not be same..!"
 nm16 : "Chat opening time must be greater than closing time"
 
 #plugin - pin.py
-pin1 : "Я прикрепил [это сообщение]({})".
-pin2 : "Вы не администратор, чтобы сделать это"
-pin3 : "Нужны некоторые полномочия администратора"
-pin4 : "Ответьте на сообщение, чтобы прикрепить его!".
-pin5 : "Открепить сообщение"
-pin6 : "Открепить последнее прикрепленное сообщение!"
-pin7 : "Вы не администратор, чтобы сделать это"
-pin8 : "Нужны полномочия администратора"
-pin9 : "Вы действительно хотите открепить все сообщения в этом чате?"
-pin10 : "Ты даже не администратор, не пробуй это взрывное дерьмо!"
-pin11 : "Ты всего лишь администратор, а не владелец\n Оставайся в своих рамках!"
-pin12 : "Все прикрепленные сообщения были откреплены."
-pin13 : "Вы не можете использовать это"
-pin14 : "Нужны полномочия администратора"
-pin15 : "Анти-канальные пины в настоящее время `{}`"
-pin16 : "**Включены** анти-канальные пины. Автоматические пины из канала теперь будут заменены предыдущим пином."
-pin17 : "**Отключены** противоканальные пины. Автоматические пины из канала не будут удаляться."
-pin18 : "Ваш вход не был распознан как один из: да/нет/вкл/выкл".
-pin19 : "Удаление постов связанного канала в настоящее время {}"
-pin20 : "Включили CleanLinked! Теперь все сообщения из связанного канала будут удалены!"
-pin21 : "Выключил CleanLinked! Сообщения из связанного канала не будут удаляться!"
-pin22 : "Ваш вход не был распознан как один из: да/нет/вкл/выкл".
-pin23 : "Ответьте на сообщение или введите текст, чтобы закрепить его".
-pim24 : "Нет закрепленных сообщений."
+pin1 : "I have pinned [this message]({})."
+pin2 : "You not admin to do this"
+pin3 : "Need some admin power"
+pin4 : "Reply to a message to pin it!"
+pin5 : "Unpin  message"
+pin6 : "Unpinned last pinned message!"
+pin7 : "You not admin to do this"
+pin8 : "Need some admin power"
+pin9 : "Do you really want to unpin all messages in this chat?"
+pin10 : "You're not even an admin, don't try this explosive shit!"
+pin11 : "You're just an admin, not owner\nStay in your limits!"
+pin12 : "All pinned messages have been unpinned."
+pin13 : "You can't use this"
+pin14 : "need admin power"
+pin15 : "Anti channel pins are currently `{} `"
+pin16 : "**Enabled** anti channel pins. Automatic pins from a channel will now be replaced with the previous pin."
+pin17 : "**Disabled** anti channel pins. Automatic pins from a channel will not be removed."
+pin18 : "Your input was not recognised as one of: yes/no/on/off"
+pin19 : "Linked channel post deletion is currently {}"
+pin20 : "Turned on CleanLinked! Now all the messages from linked channel will be deleted!"
+pin21 : "Turned off CleanLinked! Messages from linked channel will not be deleted!"
+pin22 : "Your input was not recognised as one of: yes/no/on/off"
+pin23 : "Reply to a message or enter text to pin it."
+pim24 : "There is no pinned messages"
 
 #plugin - protection.py
 prote1 : "I undestand `/antispam on` and `/antispam off` only"
