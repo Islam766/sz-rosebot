@@ -397,7 +397,7 @@ async def take_ss(_, message: Message):
 
 __MODULE__ = f"{Sticker}"
 __HELP__ = f"""
- - /stickerid: Get id of a sticker.
- - /getsticker: To get sticker as a photo and document.
- - /kang: To kang a Sticker or an Image.
+- /stickerid: Получить идентификатор стикера.
+- /getsticker: Получить стикер в виде фотографии и документа.
+- /kang: Создать стикер или изображение.
 """
