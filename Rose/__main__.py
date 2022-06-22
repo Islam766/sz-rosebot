@@ -129,10 +129,10 @@ keyboard = InlineKeyboardMarkup(
 )
 
 IMG = ["https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
-       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
-       "https://telegra.ph/file/8738a478904238e367939.jpg",
-       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
+       "https://telegra.ph/file/29101ba4c9a9eb64946c7.jpg",
+       "https://telegra.ph/file/5bea0630b9cd4284268fa.jpg",
+       "https://telegra.ph/file/5bea0630b9cd4284268fa.jpg",
+       "https://telegra.ph/file/29101ba4c9a9eb64946c7.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
@@ -290,11 +290,7 @@ async def help_parser(name, keyboard=None):
     return (
 """
 **Добро пожаловать в меню помощи**
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @isIam07.
-**All commands can be used with the following: / **""",
+""",
         keyboard,
     )
 
@@ -335,7 +331,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Разработчик @isIam07"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
