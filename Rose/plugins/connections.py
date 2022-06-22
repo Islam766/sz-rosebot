@@ -162,14 +162,14 @@ __Select a chat to connect:__
 __MODULE__ = f"{Connections}"
 __HELP__ = """
 
-Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
+Иногда вы просто хотите добавить некоторые заметки и фильтры в общий чат, но не хотите, чтобы их видели все.
 
-This allows you to connect to a chat's database, and add things to it without the chat knowing about it! For obvious reasons, you need to be an admin to add things; but any member can view your data. (banned/kicked users can't!)
+Это позволяет вам подключаться к базе данных чата и добавлять в него нужные вещи так, чтобы чат об этом не знал! По очевидным причинам, для добавления вещей вам нужно быть администратором, но любой пользователь может просматривать ваши данные. ( забаненные/кикнутые пользователи не могут!)
 
-**Admin commands:**
-- /connect <chatid/username>: Connect to the specified chat, allowing you to view/edit contents.
-- /disconnect: Disconnect from the current chat.
-- /connections: See information about the currently connected chat.
+**Команды администратора:**
+- /connect <chatid/username>: Подключиться к указанному чату, позволяя вам просматривать/редактировать его содержимое.
+- /disconnect: Отключиться от текущего чата.
+- /connections: Посмотреть информацию о текущем подключенном чате.
 
-You can retrieve the chat id by using the /id command in your chat. Don't be surprised if the id is negative; all super groups have negative ids.
+Вы можете получить id чата, используя команду /id в вашем чате. Не удивляйтесь, если id будет отрицательным; все супергруппы имеют отрицательные id.
 """
