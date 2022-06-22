@@ -85,15 +85,15 @@ async def del_msg(client, m: Message, _):
 
 __MODULE__ = f"{Purges}"
 __HELP__ = """
-Need to delete lots of messages? That's what purges are for!
+Нужно удалить много сообщений? Вот для чего нужны чистки!
 
-**Admin commands:**
-- /purge: Delete all messages from the replied to message, to the current message.
-- /purge  <X>: Delete the following X messages after the replied to message.
-- /spurge: Same as purge, but doesnt send the final confirmation message.
-- /del: Deletes the replied to message.
+**Команды администратора:**
+- /purge: Удалить все сообщения от сообщения, на которое был дан ответ, до текущего сообщения.
+- /purge <X>: Удалить следующие X сообщений после сообщения, на которое был получен ответ.
+- /spurge: То же, что и purge, но не отправляет последнее подтверждающее сообщение.
+- /del: Удаляет ответившее сообщение.
 
-**Examples:**
-- Delete all messages from the replied to message, until now.
+**Примеры:**
+- Удаление всех сообщений, начиная с сообщения, на которое ответили, до настоящего момента.
 -> /purge
 """
