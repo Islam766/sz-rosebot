@@ -44,7 +44,7 @@ async def delete_service(_, message):
 __MODULE__ = f"{formatting}"
 __HELP__ = f"""
 **Formatting**
-Rose supports a large number of formatting options to make
+Borz supports a large number of formatting options to make
 your messages more expressive. Take a look!
 """
 __helpbtns__ = (
