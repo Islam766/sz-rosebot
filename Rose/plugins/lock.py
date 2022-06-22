@@ -1271,20 +1271,20 @@ def get_url(message_1: Message) -> Union[str, None]:
 __MODULE__ = f"{Locks}"
 __HELP__ = """
 **Locks**
-Do stickers annoy you? or want to avoid people sharing links? or pictures? You're in the right place!
-The locks module allows you to lock away some common items in the telegram world; the bot will automatically delete them!
+Вас раздражают стикеры? Или вы хотите, чтобы люди не делились ссылками или картинками? Вы попали по адресу!
+Модуль блокировок позволяет вам заблокировать некоторые распространенные в мире Telegram предметы; бот будет автоматически удалять их!
 
-**Admin commands:**
-- /lock <item(s)>: Lock one or more items. Now, only admins can use this type!
-- /unlock <item(s)>: Unlock one or more items. Everyone can use this type again!
-- /locks: List currently locked items.
-- /locktypes: Show the list of all lockable items.
+**Команды администратора:**
+- /lock <item(s)>: Заблокировать один или несколько предметов. Теперь только администраторы могут использовать этот медиа!
+- /unlock <item(s)>: Разблокировать один или несколько элементов. Все снова могут использовать этот медиа!
+- /locks: Вывести список заблокированных элементов.
+- /locktypes: Показать список всех заблокированных предметов.
 
-**Examples:**
-- Lock stickers with:
-• `/lock sticker`
-- You can lock/unlock multiple items by chaining them:
-• `/lock sticker photo gif video`
+**Примеры:**
+- Заблокировать наклейки с помощью:
+- `/lock sticker`.
+- Вы можете заблокировать/разблокировать несколько элементов, соединив их в цепочку:
+- `/lock sticker photo gif video`.
 """
 __helpbtns__ = (
         [[
