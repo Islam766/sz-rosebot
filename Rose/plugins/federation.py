@@ -492,20 +492,20 @@ async def Rename_fed(client, message):
 
 __MODULE__ = f"{Federations}"
 __HELP__ = """
-Everything is fun, until a spammer starts entering your group, and you have to block it. Then you need to start banning more, and more, and it hurts.
-But then you have many groups, and you don't want this spammer to be in one of your groups - how can you deal? Do you have to manually block it, in all your groups?
+Все весело, пока спамер не начинает заходить в вашу группу, и вам приходится блокировать его. Тогда вам нужно начать банить еще и еще, и это становится невыносимо трудно.
+Но тогда у вас много групп, и вы не хотите, чтобы этот спамер был в одной из ваших групп - как быть? Вам придется вручную блокировать его во всех группах?
 
-**No longer!** With Federation, you can make a ban in one chat overlap with all other chats.
+**Нет больше! ** С помощью Borza вы можете сделать так, чтобы бан в одном чате накладывался на все остальные чаты.
 
-You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.
+Вы даже можете назначить администраторов федерации, чтобы ваш доверенный администратор мог запретить всех спамеров в чатах, которые вы хотите защитить.
 
-**Commands:**
-- /newfed <fedname>: create a new Federation with the name given. Users are only allowed to have one Federation. This method can also be used to rename the Federation. (max. 64 characters)
-- /joinfed <FedID>: join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation.
-- /fedpromote <user>: promote Users to give fed admin. Fed owner only.
-- /fban <user>: ban users from all federations where this chat takes place, and executors have control over.
-- /unfban <user>: cancel User from all federations where this chat takes place, and that the executor has control over.
-- /renamefed : rename your  Federation.
-- /leavefed: Leaves current chat from the fed.
-- /fedinfo : get fed informations.
+**Команды:**
+- /newfed <fedname>: создать новую федерацию с указанным именем. Пользователям разрешено иметь только одну федерацию. Этот метод также может быть использован для переименования федерации. (макс. 64 символа)
+- /joinfed <FedID>: присоединить текущий чат к Федерации. Это могут сделать только владельцы чата. Каждый чат может быть только в одной Федерации.
+- /fedpromote <user>: повысить пользователя, чтобы дать ему права администратора федерации. Только владелец федерации.
+- /fban <user>: запретить пользователей из всех федераций, в которых происходит данный чат, и над которыми имеют контроль исполнители.
+- /unfban <user>: отменить пользователя из всех федераций, где происходит этот чат, и над которыми исполнитель имеет контроль.
+- /renamefed : переименовать свою федерацию.
+- /leavefed: покидает текущий чат из федерации.
+- /fedinfo : получить информацию о федерации.
 """
