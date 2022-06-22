@@ -109,13 +109,13 @@ async def clear_rules(client, message: Message, _):
 
 __MODULE__ = f"{Rule}"
 __HELP__ = """
-Every chat works with different rules; this module will help make those rules clearer!
+Каждый чат работает по своим правилам; этот модуль поможет сделать эти правила более понятными!
 
-**User commands:**
-- /rules: Check the current chat rules.
+**Команды пользователя:**
+- /rules: Проверить текущие правила чата.
 
-**Admin commands:**
-- /setrules `<text>`: Set the rules for this chat. Supports markdown, buttons, fillings, etc.
-- /privaterules `<yes/no/on/off>`: on|off whether the rules should be sent in private.
-- /clearrules: Reset the chat rules to default.
+**Команды администратора:**
+- /setrules `<text>`: Установить правила для этого чата. Поддерживает уценку, кнопки, заливки и т.д.
+- /privaterules `<yes/no/on/off>`: on|off - отправлять ли правила в приват.
+- /clearrules: Сбросить правила чата на значения по умолчанию.
 """
