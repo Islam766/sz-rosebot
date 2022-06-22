@@ -87,10 +87,14 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text=" ➕ Добавить меня в свою группу ➕ ",
+                text=" ➕ Add Me To Your Group ➕ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
+        [
+           InlineKeyboardButton(
+                text=" ℹ️ About", callback_data="_about"
+            ),
             InlineKeyboardButton(
                 text="🌍 languages ", callback_data="_langs"
             ),
@@ -103,11 +107,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="🌐 My Website",
-                url=f"https://t.me/IsIam07",
+                url=f"https://szrosebot.ml",
             ),
             InlineKeyboardButton(
                 text="🔰News Channel",
-                url=f"https://t.me/+KtO9CZQ1k61lYzIy",
+                url=f"https://t.me/szroseupdates",
             )
         ],
     ]
@@ -124,11 +128,11 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
-IMG = ["https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg"
+IMG = ["https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg",
+       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
+       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
+       "https://telegra.ph/file/8738a478904238e367939.jpg",
+       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
@@ -182,7 +186,7 @@ async def start(client, message: Message, _):
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
 ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @isIam07
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -274,7 +278,7 @@ You Protect Your Groups & Suit For All Your Needs.
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @isIam07
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -289,7 +293,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [isIam](https://t.me/isIam07/), or head to @isIam07
+have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
 **All commands can be used with the following: / **""",
         keyboard,
     )
@@ -331,7 +335,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @isIam07"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
