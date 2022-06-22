@@ -907,7 +907,7 @@ async def edt(client, message):
          lol = await pbot.send_message(
                 message.chat.id,
                 f"""
-{sender}, Your message was deleted as it was edited (like user bot). \n ❗️ Edit are not allowed here""",
+{sender}, Ваше сообщение было удалено, так как оно было отредактировано (как пользователь-бот). \n ❗️ Редактирование здесь запрещено""",
             )
          await asyncio.sleep(7)
          await lol.delete()   
@@ -1182,7 +1182,7 @@ async def urls(client, message):
          lol = await pbot.send_message(
                 message.chat.id,
                 f"""
-{sender}, Your message was deleted as it contain a link(s). \n ❗️ Links are not allowed here""",
+{sender}, Ваше сообщение было удалено, так как оно содержит ссылку(и). \n ❗️ Ссылки здесь запрещены""",
             )
          await asyncio.sleep(7)
          await lol.delete()   
@@ -1204,7 +1204,7 @@ async def channel(client, message):
         return
       await message.delete()
       ti = await message.reply_text(f"""
-{sender.title}, Your message was deleted as it from channel(s). \n ❗️ channel are not allowed here""",
+{sender.title}, Ваше сообщение было удалено, так как оно отправлено через канал""",
             )
       await asyncio.sleep(10)
       await ti.delete()
@@ -1232,7 +1232,7 @@ async def spoiler(client, message):
                lol = await pbot.send_message(
                 message.chat.id,
                 f"""
-{sender}, Your message was deleted as it contain a spoiler(s). \n ❗️ spoilers are not allowed here""",
+{sender}, Ваше сообщение было удалено, так как оно содержит спойлер(ы). \n ❗️ спойлеры здесь запрещены""",
             )
                await asyncio.sleep(10)
                await lol.delete()   
