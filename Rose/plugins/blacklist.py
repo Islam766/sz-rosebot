@@ -304,24 +304,24 @@ async def bl_watcher(_, m: Message):
 
 __MODULE__ = f"{Blacklists}"
 __HELP__ = """
-**User Commands:**
-- /blacklist: Check all the blacklists in chat.
+**Команды пользователя:**
+- /blacklist: Проверить все черные списки в чате.
 
-**Admin Commands:**
-- /addblacklist <trigger>: Blacklists the word in the current chat.
-- /rmblacklist <trigger>: Removes the word from current Blacklisted Words in Chat.
-- /unblacklist : Same as above
-- /blaction <mute/kick/ban/warn/none>: Sets the action to be performed by bot when a blacklist word is detected.
-- /blacklistaction: Same as above
-- /blacklistmode : Same as above
-- /blwarning `<reason>`: Set the default blocklist reason to warn people with.
-- /blreason : Same as above
-- /blacklistreason : Same as above
+**Команды администратора:**
+- /addblacklist <триггер>: заносит слово в черный список в текущем чате.
+- /rmblacklist <триггер>: Удаляет слово из текущего черного списка слов в чате.
+- /unblacklist : То же, что и выше.
+- /blaction <mute/kick/ban/warn/none>: Устанавливает действие, которое будет выполняться ботом при обнаружении слова из черного списка.
+- /blacklistaction: То же, что и выше
+- /blacklistmode : Как указано выше
+- /blwarning `<причина>`: Устанавливает причину блокировки списка по умолчанию для предупреждения людей.
+- /blreason : То же, что и выше
+- /blacklistreason : То же, что и выше.
 
-**Owner Only:**
-- /rmallblacklist: Removes all the blacklisted words from chat
-**Note:**
+** Только для владельца:**
+- /rmallblacklist: Удаляет все слова из черного списка из чата.
+**Примечание:**
 
-The Default mode for Blacklist is none,
-which will just delete the messages from the chat.
+Режим по умолчанию для черного списка - нет,
+который просто удаляет сообщения из чата.
 """
