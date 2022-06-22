@@ -398,19 +398,19 @@ async def filters_watcher(c: app, m: Message):
 
 __MODULE__ = f"{Filter}"
 __HELP__ = """
-Make your chat more lively with filters; The bot will reply to certain words!
-Filters are case insensitive; every time someone says your trigger words, Rose will reply something else! can be used to create your own commands, if desired.
+Сделайте чат более живым с помощью фильтров; бот будет отвечать на определенные слова!
+Фильтры нечувствительны к регистру; каждый раз, когда кто-то произносит ваши слова, Borz будет отвечать что-то другое! можно использовать для создания собственных команд, если это необходимо.
 
-**Commands:**
-- /filter <trigger> <reply>: Every time someone says "trigger", the bot will reply with "sentence". For multiple word filters, quote the trigger.
-- /filters: List all chat filters.
-- /stop <trigger>: Stop the bot from replying to "trigger".
-- /stopall: Stop ALL filters in the current chat. This cannot be undone.
+**Команды:**
+- /filter <trigger> <reply>: Каждый раз, когда кто-то произносит слово "trigger", бот будет отвечать словом "sentence". Для фильтров из нескольких слов, заключите слово "триггер" в кавычки.
+- /filters: Вывести список всех фильтров чата.
+- /stop <триггер>: Остановить бота от ответа на "триггер".
+- /stopall: Остановить ВСЕ фильтры в текущем чате. Это нельзя отменить.
 
-**Example:**
+**Пример:**
 
-- Set a filter:
-> ` /filter hello ` reply some message like : Hello there! How are you?
+- Установить фильтр:
+> ` /filter hello ` ответить на некоторое сообщение типа : Привет! Как дела?
 """
 __helpbtns__ = (
         [[
