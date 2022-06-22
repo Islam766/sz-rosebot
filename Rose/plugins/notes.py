@@ -118,7 +118,7 @@ async def get_note_func(c: app, m: Message, note_name, priv_notes_status):
                     [
                         (
                             "Click Me!",
-                            f"https://t.me/szRosebot?start=note_{m.chat.id}_{note_hash}",
+                            f"https://t.me/b0rzbot?start=note_{m.chat.id}_{note_hash}",
                             "url",
                         ),
                     ],
@@ -371,7 +371,7 @@ You are anonymous admin. Use `/connect {m.chat.id}` in PM
                 [
                     (
                         "All Notes",
-                        f"https://t.me/szRosebot?start=notes_{grp_id}",
+                        f"https://t.me/b0rzbot?start=notes_{grp_id}",
                         "url",
                     ),
                 ],
@@ -430,17 +430,17 @@ async def clear_allnote(_, m: Message):
 
 __MODULE__ = f"{Note}"
 __HELP__ = """
-Save data for future users with notes!
-Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
+Сохраняйте данные для будущих пользователей с помощью заметок!
+Заметки отлично подходят для сохранения случайных кусочков информации: номер телефона, красивый рисунок, забавная картинка - все, что угодно!
 
-**User commands:**
-- /get `<notename>`: Get a note.
-- #notename: Same as `/get`.
+**Команды пользователя:**
+- /get `<имя заметки>`: Получить заметку.
+- #notename: То же самое, что и `/get`.
 
-**Admin commands:**
-- /save `<notename>` `<note text>`: Save a new note called "word". Replying to a message will save that message. Even works on media!
-- /clear `<notename>`: Delete the associated note.
-- /notes: List all notes in the current chat.
-- /saved: Same as /notes.
-- /clearall: Delete ALL notes in a chat. This cannot be undone.
+**Команды администратора:**
+- /save `<notename>` `<текст заметки>`: Сохранить новую заметку под названием "слово". Ответ на сообщение сохранит это сообщение. Работает даже на носителях!
+- /clear `<имя заметки>`: Удалить связанную заметку.
+- /notes: Вывести список всех заметок в текущем чате.
+- /saved: То же, что и /notes.
+- /clearall: Удалить ВСЕ заметки в чате. Это нельзя отменить.
 """
