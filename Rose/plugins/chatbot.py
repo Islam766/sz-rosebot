@@ -92,18 +92,17 @@ __MODULE__ = f"{Chat_Bot}"
 __HELP__ = """
 **Chatbot**
 
-AI based chatbot allows rose to talk and provides a more interactive group chat experience.
+Чатбот на основе искусственного интеллекта позволяет боту общаться и обеспечивает более интерактивный групповой чат.
 
-- /chatbot [ON/OFF]: Enables and disables Affiliate + AI Chat bot.
-
-
-**Available chatbots**
-• Luna - Advanced, inteligent and cute chatbot which will keep you happy all time.. 
+- /chatbot [ON/OFF]: Включает и выключает чат-бота
 
 
-**Language Support**
-Rose AI chatbot support almost all languages in world .
-Powered By ; `googletrans==3.1.0a0`
+**Доступные чат-боты**
+- Borz - продвинутый, интеллектуальный и милый чат-бот, который будет радовать вас все время... 
+
+
+**Поддержка языков**
+Borz AI чатбот поддерживает почти все языки мира.
 """
 
 
