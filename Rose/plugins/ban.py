@@ -199,31 +199,31 @@ async def kickunc(client, message: Message, _):
 
 __MODULE__ = f"{Restrict}"
 __HELP__ = """
-Some people need to be publicly banned; spammers, annoyances, or just trolls.
+Некоторые люди должны быть публично забанены: спамеры, пользователи, вызывающие раздражение
 
-This module allows you to do that easily, by exposing some common actions, so everyone will see!
+Этот модуль позволяет вам легко это сделать, раскрывая некоторые общие действия, чтобы все видели!
 
-**User commands:**
-- /kickme: Users that use this, kick themselves.
+**Команды пользователя:**
+- /kickme: Пользователи, которые воспользуются этой командой, будут кикать сами себя.
 
-**Admin commands:**
-- /ban: Ban a user.
-- /dban: Ban a user by reply, and delete their message.
-- /sban: Silently ban a user, and delete your message.
-- /tban: Temporarily ban a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
-- /unban: Unban a user.
+**Команды администратора:**
+- /ban: Банить пользователя.
+- /dban: Банить пользователя по ответу и удалять его сообщение.
+- /sban: Молча забанить пользователя и удалять его сообщение.
+- /tban: Временно забанить пользователя. Например, значения времени: 4m = 4 минуты, 3h = 3 часа, 6d = 6 дней, 5w = 5 недель.
+- /unban: Разбанить пользователя.
 
-- /mute: Mute a user.
-- /dmute: Mute a user by reply, and delete their message.
-- /smute: Silently mute a user, and delete your message.
-- /tmute: Temporarily mute a user. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
-- /unmute: Unmute a user.
+- /mute: этой командой вы отправляете пользователя в тихий режим, то есть человек не сможет писать в чате.
+- /dmute: Заблокировать чат пользователю в ответ и удалить его сообщение.
+- /smute: Беззвучно заглушить пользователя и удалить свое сообщение.
+- /tmute: Временно заглушить пользователя. Например, значения времени: 4m = 4 минуты, 3h = 3 часа, 6d = 6 дней, 5w = 5 недель.
+- /unmute: снимает мут
 
-- /kick: Kick a user.
-- /dkick: Kick a user by reply, and delete their message.
-- /skick: Silently kick a user, and delete your message
+- /kick: Выгнать пользователя.
+- /dkick: Кикнуть пользователя по ответу и удалить его сообщение.
+- /skick: Молча кикнуть пользователя и удалить свое сообщение.
 
-**Examples:**
-- Mute a user for two hours.
-- `/tmute @username 2h`
+**Примеры:**.
+- Отключить пользователя на два часа.
+- `/tmute @username 2h`.
 """
