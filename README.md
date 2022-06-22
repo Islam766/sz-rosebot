@@ -76,7 +76,7 @@ Rose is licensed under [GNU Affero General Public License](https://www.gnu.org/l
 
 ## Special credits
 Special thanks to these amazing projects/people which/who help power Rose bot
-### [click Here](https://szsupunma.gitbook.io/rose-bot/getting-started/credits)
+### [click Here](https://szsupunma.gitbwqfwqfwook.io/rose-bot/getting-started/credits)
 
 ## Contributions
 #### Contributions are welcome.
