@@ -92,13 +92,26 @@ home_keyboard_pm = InlineKeyboardMarkup(
             )
         ],
         [
-            InlineKeyboardButton(
-                text="Разработчик",
-                url=f"https://isIam07",
+           InlineKeyboardButton(
+                text=" ℹ️ About", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text="🔰Канал",
-                url=f"https://t.me/+KtO9CZQ1k61lYzIy",
+                text="🌍 languages ", callback_data="_langs"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="📮 How To Use Me", callback_data="bot_commands"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🌐 My Website",
+                url=f"https://szrosebot.ml",
+            ),
+            InlineKeyboardButton(
+                text="🔰News Channel",
+                url=f"https://t.me/isIam07",
             )
         ],
     ]
@@ -116,10 +129,10 @@ keyboard = InlineKeyboardMarkup(
 )
 
 IMG = ["https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg",
-       "https://telegra.ph/file/8a4635507507beb9c3011.jpg"
+       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
+       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
+       "https://telegra.ph/file/8738a478904238e367939.jpg",
+       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
@@ -277,10 +290,11 @@ async def help_parser(name, keyboard=None):
     return (
 """
 **Добро пожаловать в меню помощи**
-Я - бот для управления группами с некоторыми полезными функциями.
-Вы можете выбрать одну из них, нажав на кнопку ниже.
-Если у вас есть какие-либо ошибки или вопросы о том, как использовать бота обратитесь к @isIam07.
-**Все команды могут быть использованы с помощью следующих команд: / **""",
+I'm a group management bot with some useful features.
+You can choose an option below, by clicking a button.
+If you have any bugs or questions on how to use me, 
+have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @isIam07.
+**All commands can be used with the following: / **""",
         keyboard,
     )
 
@@ -321,7 +335,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Разработчик : @isIam07"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
