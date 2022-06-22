@@ -242,22 +242,22 @@ async def warnlimit(client, message: Message, _):
 
 __MODULE__ = f"{Warning}"
 __HELP__ = """
-Keep your members in check with warnings; stop them getting out of control!
-If you're looking for automated warnings, go read about the blocklist module.
+Держите своих пользователей в руках с помощью предупреждений; не дайте им выйти из-под контроля!
+Если вам нужны автоматические предупреждения, почитайте о модуле блок-листа.
 
-**Admin commands:**
-- /warn `<reason>`: Warn a user.
-- /dwarn `<reason>`: Warn a user by reply, and delete their message.
-- /swarn `<reason>`: Silently warn a user, and delete your message.
-- /warns: See a user's warnings.
-- /rmwarn: Remove a user's latest warning.
-- /resetwarn: Reset all of a user's warnings to 0.
-- /resetallwarns: Delete all the warnings in a chat. All users return to 0 warns.
-- /warnings: Get the chat's warning settings.
-- /warnmode `<ban/kick/mute/tban/tmute>`: View or set the chat's warn mode.
-- /warnlimit `<number>`: View or set the number of warnings before users are punished.
+**Команды администратора:**
+- /warn `<причина>`: Выдать предупреждение пользователю.
+- /dwarn `<причина>`: Выдать пользователю предупреждение в ответ и удалить его сообщение.
+- /swarn `<причина>`: Молча выдать предупреждение пользователю и удалить свое сообщение.
+- /warns: Просмотреть предупреждения пользователя.
+- /rmwarn: Удалить последнее предупреждение пользователя.
+- /resetwarn: Сбросить все предупреждения пользователя до 0.
+- /resetallwarns: Удалить все предупреждения в чате. Все пользователи возвращаются к 0 предупреждений.
+- /warnings: Получить настройки предупреждений в чате.
+- /warnmode `<ban/kick/mute/tban/tmute>`: Просмотр или установка режима предупреждений чата.
+- /warnlimit `<number>`: Просмотр или установка количества предупреждений перед тем, как пользователи будут наказаны.
 
-**Examples:**
-- Warn a user.
-- `/warn @user For disobeying the rules`
+**Примеры:**
+- Предупредить пользователя.
+- `/warn @user For disobeying the rules`.
 """
