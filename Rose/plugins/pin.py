@@ -167,20 +167,20 @@ async def perma_pin(client, message: Message, _):
 
 __MODULE__ = f"{Pin}"
 __HELP__ = f"""
-All the pin related commands can be found here; 
-keep your chat up to date on the latest news with 
-a simple pinned message!
+Все команды, связанные c закрепом., можно найти здесь; 
+держите свой чат в курсе последних новостей с помощью 
+простым сообщением с прикрепленным контентом!
 
-**User commands:**
-- /pinned: Get the current pinned message.
+**Команды пользователя:**
+- /pinned: Получить текущее прикрепленное сообщение.
 
-**Admin commands:**
-- /pin: Pin the message you replied to. Add 'loud' or 'notify' to send a notification to group members.
-- /permapin `<text>`: Pin a custom message through the bot. This message can contain markdown, buttons, and all the other cool features.
-- /unpin: Unpin the current pinned message. If used as a reply, unpins the replied to message.
-- /unpinall: Unpins all pinned messages.
-- /antichannelpin `<yes/no/on/off>`: Don't let telegram auto-pin linked channels. If no arguments are given, shows current setting.
-- /cleanlinked `<yes/no/on/off>`: Delete messages sent by the linked channel.
+**Команды администратора:**
+- /pin: Закрепить сообщение, на которое вы ответили. Добавьте 'loud' или 'notify', чтобы отправить уведомление членам группы.
+- /permapin `<текст>`: Закрепить пользовательское сообщение с помощью бота. Это сообщение может содержать маркдаун, кнопки и все остальные крутые функции.
+- /unpin: Открепить текущее прикрепленное сообщение. Если используется в качестве ответа, открепляется сообщение, на которое был получен ответ.
+- /unpinall: Удалить все сообщения, на которые были установлены контакты.
+- /antichannelpin `<yes/no/on/off>`: Не позволять telegram автоматически пинговать связанные каналы. Если аргументы не указаны, показывает текущую настройку.
+- /cleanlinked `<yes/no/on/off>`: Удалять сообщения, отправленные связанным каналом.
 
-**Note:** When using antichannel pins,make sure to use the /unpin command, instead of doing it manually. Otherwise, the old message will get re-pinned when the channel sends any messages.
+**Примечание:** При использовании антиканала, обязательно используйте команду /unpin, а не делайте это вручную. В противном случае, старое сообщение будет повторно прикреплено, когда канал отправит какие-либо сообщения..
 """
