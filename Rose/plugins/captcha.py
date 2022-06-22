@@ -151,20 +151,17 @@ async def del_chat(client, message: Message, _):
 
 __MODULE__ = f"{Extra}"
 __HELP__ = f"""
-**Commands:**
- - /id: Get the id of user or chat.
- - /info: Get basic information of a user.
- - /paste: Paste given text on a website.
- - /tr [lang code]: Translate text messages.
- - /q : To quote a message.
- - /q [INTEGER] : To quote more than 1 messages.
- - /q r : to quote a message with it's reply
- - /telegraph <reply to jpg, jpeg, png, gif or mp4>: upload to telegraph.
- - /tm <reply to jpg, jpeg, png, gif or mp4>: upload to telegraph.
- - /tgm <reply to jpg, jpeg, png, gif or mp4>: upload to telegraph.
- - /invitelink: Get invitelink for your group.
+**Команды:**
+ - /id: Получить идентификатор пользователя или чата.
+ - /info: Получить основную информацию о пользователе.
+ - /paste: Вставить заданный текст на веб-сайт.
+ - /tr [lang code]: Переводить текстовые сообщения.
+ - /telegraph <ответ в jpg, jpeg, png, gif или mp4>: загрузить в телеграф.
+ - /tm <ответ на jpg, jpeg, png, gif или mp4>: загрузить в телеграф.
+ - /tgm <ответ на jpg, jpeg, png, gif или mp4>: загрузить в телеграф.
+ - /invitelink: Получить invitelink для вашей группы.
  
-**Example:*
- - Translate text message to English:
-> `/tr en` [Reply some text message]
+**Пример:*.
+ - Перевести текстовое сообщение на английский язык:
+> `/tr en` [Ответить на некоторое текстовое сообщение].
 """
