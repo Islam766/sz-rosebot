@@ -91,18 +91,18 @@ async def mentioned_alert(client, message):
     
 __MODULE__ = f"{Tagalert}"
 __HELP__ = """
-Too many mentions.. Cant you manage them all alone..
-Here is the solution
+Слишком много упоминаний... Вы не можете справиться с ними в одиночку...
+Вот решение
 
-If you are tagged/mentioned in a group where Rose is present
-Rose will notify it to you via private message after enabling tag alerts
+Если вас отметили/упомянули в группе, где присутствует Borz.
+Borz сообщит вам об этом в личном сообщении после включения оповещения о тегах
 
-**Commands**
-- /tagalert `on` : Turn tag alerts on
-- /tagalert `off` : Turn tag alert off
+**Команды**
+- /tagalert `on` : Включить оповещения о тегах
+- /tagalert `off` : Выключить оповещение о тегах
 
-**Example:**
-If you are mentioned in a group Rose will tell you who mentioned you, 
-message that you are tagged in and which group is that.
+**Пример:**
+Если вы упомянуты в группе, Borz сообщит вам, кто вас упомянул, 
+сообщение, в котором вы отмечены, и какая это группа.
 """
     
