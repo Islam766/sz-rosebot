@@ -188,13 +188,13 @@ async def welcome(_, message: Message):
                 await message.reply_text(
                     f"""
 Thanks for adding me to your {group_name}! Don't forget follow
-my news channel @Theszrosebot.
+my news channel @B0rzbot.
 
 **New to Me, Touch the below button and start me in PM**
                     """,
                     reply_markup=InlineKeyboardMarkup(
             [
-                InlineKeyboardButton("quick start guide", url="http://t.me/szrosebot?start=help"),
+                InlineKeyboardButton("quick start guide", url="http://t.me/B0rzbot?start=help"),
             ]))
                 await app.send_message(
                 chat_id=LOG_GROUP_ID,
@@ -207,13 +207,13 @@ my news channel @Theszrosebot.
         if member.id == OWNER_ID:
                await app.send_message(
                 message.chat.id,
-                "Wow ! Owner has just joined your chat.",
+                "Разработчик бота только что присоединился к чату.",
             )
                return
         if member.id == 1467358214:#for @supunma 
                await app.send_message(
                 message.chat.id,
-                "Wow ! Developer has just joined your chat.",
+                "Разработчик бота только что присоединился к чату.",
             )
                return       
         if member.is_bot:
@@ -406,20 +406,20 @@ async def goodbye(client, message: Message, _):
 
 __MODULE__ = f"{Greeting}"
 __HELP__ = """
-Give your members a warm welcome with the greetings module! Or a sad goodbye... Depends!
+Поприветствуйте своих пользователей с помощью модуля приветствий! Или грустное прощание... Зависит от ситуации!
 
-**Admin commands:**
-- /welcome `<yes/no/on/off>`: Enable/disable welcomes messages.
-- /goodbye `<yes/no/on/off>`: Enable/disable goodbye messages.
-- /setwelcome `<text>`: Set a new welcome message. Supports markdown, buttons, and fillings.
-- /resetwelcome: Reset the welcome message.
-- /setgoodbye `<text>`: Set a new goodbye message. Supports markdown, buttons, and fillings.
-- /resetgoodbye: Reset the goodbye message.
-- /cleanservice `<yes/no/on/off>`: Delete all service messages. Those are the annoying 'x joined the group' notifications you see when people join.
-- /cleanwelcome `<yes/no/on/off>`: Delete old welcome messages. When a new person joins, or after 5 minutes, the previous message will get deleted.
+**Команды администратора:**
+- /welcome `<yes/no/on/off>`: Включить/выключить приветственные сообщения.
+- /goodbye `<yes/no/on/off>`: Включить/выключить сообщения о прощании.
+- /setwelcome `<text>`: Установка нового приветственного сообщения. Поддерживает маркдаун, кнопки и заливки.
+- /resetwelcome: Сброс приветственного сообщения.
+- /setgoodbye `<текст>`: Задать новое прощальное сообщение. Поддерживает уценку, кнопки и заливки.
+- /resetgoodbye: Сброс прощального сообщения.
+- /cleanservice `<yes/no/on/off>`: Удалить все служебные сообщения. Это раздражающие уведомления "x присоединился к группе", которые вы видите, когда люди вступают в группу.
+- /cleanwelcome `<yes/no/on/off>`: Удалить старые приветственные сообщения. Когда новый человек присоединяется или через 5 минут, предыдущее сообщение будет удалено.
 
-**Examples:**
-- Get the welcome message without any formatting
+**Примеры:**
+- Получение приветственного сообщения без форматирования
 - /welcome noformat
 """
 __helpbtns__ = (
