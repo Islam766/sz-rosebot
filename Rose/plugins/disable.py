@@ -142,18 +142,18 @@ async def rm_alldisbl(client, message: Message, _):
 
 __MODULE__ = "Disabling"
 __HELP__ = """
-This allows you to disable some commonly used commands,
-so none can use them. It'll also allow you to autodelete them, 
-stopping people from bluetexting.
+Это позволяет отключить некоторые часто используемые команды,
+чтобы никто не мог их использовать. Это также позволит вам автоматически удалять их, 
+не позволяя людям использовать bluetexting.
 
-**Admin commands:**
-- /disable `<commandname>`: Stop users from using commandname in this group.
-- /enable `<item name>`: Allow users from using commandname in this group.
-- /disableable: List all disableable commands.
-- /disabledel `<yes/no/on/off>`: Delete disabled commands when used by non-admins.
-- /disabled: List the disabled commands in this chat.
+**Команды администратора:**
+- /disable `<commandname>`: Запрещает пользователям использовать имя команды в этой группе.
+- /enable `<имя элемента>`: Разрешить пользователям использовать имя команды в этой группе.
+- /disable: Перечислить все отключенные команды.
+- /disabledel `<yes/no/on/off>`: Удалить отключенные команды, если они используются не администраторами.
+- /disabled: Список отключенных команд в этом чате.
 
-**Note:**
-When disabling a command, the command only gets disabled for non-admins.
-All admins can still use those commands.
+**Примечание:**.
+При отключении команды, команда отключается только для неадминистраторов.
+Все администраторы по-прежнему могут использовать эти команды.
  """
