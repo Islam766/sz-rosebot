@@ -92,26 +92,13 @@ home_keyboard_pm = InlineKeyboardMarkup(
             )
         ],
         [
-           InlineKeyboardButton(
-                text=" ℹ️ About", callback_data="_about"
-            ),
             InlineKeyboardButton(
-                text="🌍 languages ", callback_data="_langs"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="📮 How To Use Me", callback_data="bot_commands"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌐 My Website",
+                text="",
                 url=f"https://szrosebot.ml",
             ),
             InlineKeyboardButton(
-                text="🔰News Channel",
-                url=f"https://t.me/isIam07",
+                text="🔰Канал",
+                url=f"https://t.me/+KtO9CZQ1k61lYzIy",
             )
         ],
     ]
@@ -180,12 +167,12 @@ async def start(client, message: Message, _):
         for user in users:
           served_users.append(int(user["bot_users"]))
         await message.reply(f"""
-[👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
+[👋]({random.choice(IMG)}) Здравствуйте {message.from_user.mention}, 
 
-   My name is Rose, an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
+   Меня зовут ʙᴏʀᴢ, это продвинутый бот для управления группами Telegram, который поможет вам защитить ваши группы 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
-⚒ Send Me /help For Get Commands. 
+⚒ Отправить мне /help для получения команд. 
 👨‍💻Разработчик : @isIam07
 """,
             reply_markup=home_keyboard_pm,
